@@ -1,3 +1,4 @@
 
 #ignore build out java files
 Java/out/
+Java/lib/
