@@ -2,7 +2,7 @@ package com.extfuns;
 
 public class Numerics {
     public String dec2hex(int decimal_value){
-        return Integer.toHexString(decimal_value);
+        return Integer.toHexString(decimal_value).toUpperCase();
     }
     public int hex2dec(String hex_value){
         return Integer.parseInt(hex_value, 16);
